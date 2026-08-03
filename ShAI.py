@@ -1,0 +1,606 @@
+bot_name = "shAI"
+print( f'Welcome, I am {bot_name}, your personal guide through the world of Shai Gilgeous-Alexander. What would you like to know?')
+
+
+while True:
+    user_input: str = input("You: ").lower().strip()
+    if user_input in ["hi", "hello", "hey", "good morning", "good afternoon", "good evening", "what's up", "whats up",
+                      "sup", "yo"]:
+        print(
+            f"{bot_name}: Welcome! Thunder up! Ask me anything about Shai Gilgeous-Alexander, his teammates, his moves, his shoes, or his style.")
+
+    elif user_input in ["how are you", "how are you doing", "how's it going", "hows it going", "you good"]:
+        print(f"{bot_name}: I am doing great because I get to talk about Shai. What would you like to know?")
+
+    elif user_input in ["nice to meet you", "good to meet you", "pleased to meet you"]:
+        print(f"{bot_name}: Nice to meet you too! You are now speaking with the number one Shai glazing chatbot.")
+
+    elif user_input in ["thank you", "thanks", "thanks bot", "appreciate it"]:
+        print(f"{bot_name}: You're welcome!")
+
+    elif user_input in ["bye", "goodbye", "see you", "see you later", "quit", "exit"]:
+        print(f"{bot_name}: Goodbye! Thunder up!")
+        break
+
+    elif user_input in [" who is shai gilgeous alexander" , "who is sga" , "who is shai" , "who is shai?" ,  "who is shaivonte acian gilgeous alexander" , "sga" , 'tell me about shai' , 'shai']:
+        print(f'{bot_name}: Shai Gilgeous-Alexander is an elite Oklahoma City Thunder guard known for his smooth footwork, crafty drives, and calm scoring ability. His consistency, leadership, and control of the game have made him one of the NBA’s biggest stars.')
+    elif user_input in ["who really is shai" , "who really is shai?" , "who really is sga" , "who really is sga?"]:
+        print(f"{bot_name} Shai appears humble, calm, and quietly confident, often giving credit to his teammates rather than seeking attention for himself. He also seems like a thoughtful leader who sets an example through discipline, loyalty, and consistent effort.")
+    elif user_input in ["what are his go-to moves?", "what are his go-to moves", "what are his go to moves?" , "what are his go to moves",  "what moves does he do the most" , "what moves does he do the most?"]:
+        print(f'{bot_name} Shai’s bread and butter is his hesitation game: he changes pace, gets defenders leaning, then attacks with long strides, crossovers, or a controlled Eurostep. Once he gets into rhythm, he can finish with scoops and shoulder bumps, stop for his deadly midrange pull-up, or create space for the step-back three.')
+    elif user_input in ["does he have family" , "shai family" , "shai's family" , "does Shai have family?" , "does he have family" , "does Shai have family" , "who is Shai's family?" , "who is Shai's family"]:
+        print(f'{bot_name} The publicly known members of Shai’s close family are:Mother: Charmaine Gilgeous, a former 400 meter runner who represented Antigua and Barbuda at the 1992 Olympics. Father: Vaughn Alexander, who played basketball and coached Shai during his childhood. Younger brother: Thomasi Gilgeous-Alexander, a former college basketball player at Evansville. Wife: Hailey Summers, Shai’s high-school sweetheart and a former University at Albany soccer player. They married in February 2024. Son: Ares Alexander, born in April 2024. First cousin: NBA guard Nickeil Alexander-Walker. Nickeil’s mother, Nicole Alexander, is Vaughn’s sister, making her Shai’s aunt. Those are the relatives consistently identified in reliable public sources; Shai keeps most of his extended family private.')
+    elif user_input in [" does he have his own shoes?" , "does he have his own shoes" , "what are his signature shoes?" , "what are his signature shoes" , "Tell me about the shai 001" , 'shai 001']:
+        print(f'{bot_name} The retail and announced SHAI 001 colorways are Butter (cream yellow), Hail Clay (earthy orange), Charm Black (triple black), Masi Blue (icy blue), Winter Red (red and green), Clean Slate (all white), Ares Gray (tonal gray), Truffle (brown suede), Blush (pink), Echo (camo), Ink (premium black), Steel (metallic silver), Slither (python print), plus Lace Up editions Lime, Berry, and Cheetah')
+    elif user_input in ["butter", "butter shai 001", "shai 001 butter", "tell me about the butter shai 001",
+                        "what is the butter shai 001", "where did the butter shai 001 debut",
+                        "tell me about the butters"]:
+        print(
+            f"{bot_name}: The SHAI 001 Butter is the original pale-yellow colorway of Shai's first signature shoe. Its smooth color and name match Shai's effortless playing style. Shai officially debuted it during 2025 NBA All-Star Weekend in the San Francisco Bay Area and wore it during the All-Star Game at Chase Center.")
+
+    elif user_input in ["hail clay", "hail clay shai 001", "shai 001 hail clay", "tell me about the hail clay shai 001",
+                        "what is the hail clay shai 001", "where did the hail clay shai 001 debut",
+                        "tell me about hail clay"]:
+        print(
+            f"{bot_name}: The SHAI 001 Hail Clay is a warm brown colorway inspired by the color of Shai's wife Hailey's eyes. Its name also plays on her name. Shai debuted the pair during Game 2 of the 2025 Western Conference Finals against the Minnesota Timberwolves.")
+
+    elif user_input in ["charm black", "charm black shai 001", "shai 001 charm black",
+                        "tell me about the charm black shai 001", "what is the charm black shai 001",
+                        "where did the charm black shai 001 debut", "tell me about charm black"]:
+        print(
+            f"{bot_name}: The SHAI 001 Charm Black is a stealthy all-black pair dedicated to Shai's mother, Charmaine. The word Charm comes from her name, and the black design reflects her love of the color. Shai debuted it during Game 1 of the 2025 Western Conference Semifinals against the Denver Nuggets.")
+
+    elif user_input in ["masi blue", "masi blue shai 001", "shai 001 masi blue", "tell me about the masi blue shai 001",
+                        "what is the masi blue shai 001", "where did the masi blue shai 001 debut",
+                        "tell me about masi blue"]:
+        print(
+            f"{bot_name}: The SHAI 001 Masi Blue honors Shai's younger brother, Thomasi Gilgeous-Alexander, and uses his favorite color. Shai debuted the icy-blue pair during Game 1 of the 2025 NBA Finals against the Indiana Pacers and wore it throughout the seven-game series.")
+
+    elif user_input in ["winter red", "winter red shai 001", "shai 001 winter red",
+                        "tell me about the winter red shai 001", "what is the winter red shai 001",
+                        "where did the winter red shai 001 debut", "tell me about winter red"]:
+        print(
+            f"{bot_name}: The SHAI 001 Winter Red is a holiday-inspired design built around bright red and seasonal details. The design represents the strength and energy of winter. Shai debuted it before an Oklahoma City game against the Minnesota Timberwolves in November 2025.")
+
+    elif user_input in ["clean slate", "clean slate shai 001", "shai 001 clean slate",
+                        "tell me about the clean slate shai 001", "what is the clean slate shai 001",
+                        "where did the clean slate shai 001 debut", "tell me about clean slate"]:
+        print(
+            f"{bot_name}: The SHAI 001 Clean Slate uses an entirely white design to represent fresh starts, renewal, possibility, and creating room for progress. Shai debuted it at Paycom Center against the Philadelphia 76ers in December 2025.")
+
+    elif user_input in ["ares gray", "ares grey", "ares gray shai 001", "ares grey shai 001", "shai 001 ares gray",
+                        "tell me about the ares gray shai 001", "tell me about the ares grey shai 001",
+                        "what is the ares gray shai 001", "where did the ares gray shai 001 debut",
+                        "tell me about ares gray"]:
+        print(
+            f"{bot_name}: The SHAI 001 Ares Gray is named after Shai's son, Ares. The muted gray design makes the family tribute personal without being overly flashy. Shai debuted it during Game 1 of the 2025 NBA Playoffs against the Memphis Grizzlies.")
+
+    elif user_input in ["truffle", "truffle shai 001", "shai 001 truffle", "shai 001 lux truffle",
+                        "tell me about the truffle shai 001", "what is the truffle shai 001",
+                        "where did the truffle shai 001 debut", "tell me about the shai 001 lux truffle",
+                        "tell me about truffle"]:
+        print(
+            f"{bot_name}: The SHAI 001 LUX Truffle is a luxury-focused brown version made with premium nubuck and gold details. Its rich color and materials are inspired by chocolate and expensive truffles. It was first shown before a game against Houston and received a major public showcase during 2026 NBA All-Star Weekend in Los Angeles.")
+
+    elif user_input in ["blush", "blush shai 001", "shai 001 blush", "pink shai 001",
+                        "tell me about the blush shai 001", "what is the blush shai 001",
+                        "where did the blush shai 001 debut", "tell me about the pink shai 001", "tell me about blush"]:
+        print(
+            f"{bot_name}: The SHAI 001 Blush is a soft-pink colorway inspired by the change in energy that arrives with spring and late-season basketball. Shai debuted it at Madison Square Garden against the New York Knicks in March 2026.")
+
+    elif user_input in ["echo", "echo shai 001", "shai 001 echo", "camo shai 001", "tell me about the echo shai 001",
+                        "what is the echo shai 001", "where did the echo shai 001 debut",
+                        "tell me about the camo shai 001", "tell me about echo"]:
+        print(
+            f"{bot_name}: The SHAI 001 Echo is named after Shai's dog, Echo. It uses an all-over camouflage pattern inspired by a print that has regularly appeared in Shai's off-court outfits. The pair was publicly teased during 2026 NBA All-Star Weekend before Shai later wore it on the court.")
+
+    elif user_input in ["ink", "ink shai 001", "shai 001 ink", "premium ink shai 001", "tell me about the ink shai 001",
+                        "what is the ink shai 001", "where did the ink shai 001 debut",
+                        "tell me about the premium ink shai 001", "tell me about ink"]:
+        print(
+            f"{bot_name}: The SHAI 001 Premium Ink replaces the normal synthetic upper with premium leather in a deep indigo shade. Its name connects to Shai's hand-drawn design sketches and his creative work with Converse. Shai debuted it during Game 1 of the 2026 Western Conference First Round against the Phoenix Suns.")
+
+    elif user_input in ["steel", "steel shai 001", "shai 001 steel", "premium steel shai 001",
+                        "tell me about the steel shai 001", "what is the steel shai 001",
+                        "where did the steel shai 001 debut", "tell me about the premium steel shai 001",
+                        "tell me about steel"]:
+        print(
+            f"{bot_name}: The SHAI 001 Premium Steel has a molded metallic-silver finish that gives the shoe an industrial and futuristic appearance. The steel theme represents calmness, toughness, and composure under pressure. Shai debuted it during Game 1 of the 2026 Western Conference Semifinals against the Los Angeles Lakers.")
+
+    elif user_input in ["slither", "slither shai 001", "shai 001 slither", "snakeskin shai 001",
+                        "tell me about the slither shai 001", "what is the slither shai 001",
+                        "where did the slither shai 001 debut", "tell me about the snakeskin shai 001",
+                        "tell me about slither"]:
+        print(
+            f"{bot_name}: The SHAI 001 Premium Slither wraps the upper in a python-inspired print. The design represents the fluid movement and adaptability of a snake, matching Shai's smooth changes of direction. Shai debuted it during Game 1 of the 2026 Western Conference Finals against the San Antonio Spurs.")
+
+    elif user_input in ["lime", "lime shai 001", "shai 001 lime", "lace up lime", "lace up lime shai 001",
+                        "tell me about the lime shai 001", "what is the lime shai 001",
+                        "where did the lime shai 001 debut", "tell me about the lace up lime shai 001",
+                        "tell me about lime"]:
+        print(
+            f"{bot_name}: The SHAI 001 Lace Up Lime replaces the original shoe's zippered covering with a visible traditional lacing system. It uses a bright lime upper with contrasting details. No deeper personal origin has been publicly announced, and the pair was announced for release on August 14, 2026.")
+
+    elif user_input in ["berry", "berry shai 001", "shai 001 berry", "lace up berry", "lace up berry shai 001",
+                        "tell me about the berry shai 001", "what is the berry shai 001",
+                        "where did the berry shai 001 debut", "tell me about the lace up berry shai 001",
+                        "tell me about berry"]:
+        print(
+            f"{bot_name}: The SHAI 001 Lace Up Berry uses the visible-lace construction in a saturated pink and berry-colored design. Its name comes from its dominant color, and no deeper personal origin has been publicly announced. The pair was announced for release on August 14, 2026.")
+
+    elif user_input in ["cheetah", "cheetah shai 001", "shai 001 cheetah", "lace up cheetah",
+                        "lace up cheetah shai 001", "tell me about the cheetah shai 001",
+                        "what is the cheetah shai 001", "where did the cheetah shai 001 debut",
+                        "tell me about the lace up cheetah shai 001", "tell me about cheetah"]:
+        print(
+            f"{bot_name}: The SHAI 001 Lace Up Cheetah combines the exposed-lace version of the shoe with a padded animal-print tongue and a two-tone upper. The name comes from its cheetah-inspired pattern. The pair was announced for release on September 3, 2026.")
+    elif user_input in ["middy", "midrange", "mid range", "tell me about shai's middy", "tell me about shai's midrange",
+                        "what is shai's middy", "what is shai's midrange", "how good is shai's midrange", "Shai\'s midrange", "shai middy" , "shai midrange"]:
+        print(
+            f"{bot_name}: Shai's middy, also called his midrange shot, is one of the strongest parts of his game. He uses changes of speed, hesitation moves, long strides, and controlled footwork to reach the space between the paint and the three-point line. Once the defender backs up to stop the drive, Shai rises into a balanced pull-up jumper.")
+
+    elif user_input in ["step back middy", "step-back middy", "step back midrange", "step-back midrange",
+                        "tell me about shai's step back middy", "tell me about shai's step-back middy",
+                        "how does shai do the step back middy", "what is shai's step back middy"]:
+        print(
+            f"{bot_name}: Shai's step-back middy begins with him attacking the defender as if he plans to drive to the rim. When the defender moves backward or turns their hips, Shai plants his lead foot, pushes backward into open space, gathers his balance, and rises for the midrange jumper. His long arms, high release, and ability to stop suddenly make the shot difficult to contest.")
+
+    elif user_input in ["push off middy", "push-off middy", "push off midrange", "push-off midrange",
+                        "tell me about shai's push off middy", "tell me about shai's push-off middy",
+                        "how does shai do the push off middy", "what is shai's push off middy"]:
+        print(
+            f"{bot_name}: Shai's push-off middy comes after he drives into a defender's body and creates separation before pulling up. He uses his shoulder, timing, and off arm to protect the ball, then steps away into a balanced midrange jumper. The key is creating legal space without fully extending the arm and committing an offensive foul.")
+
+    elif user_input in ["step back 3", "step-back 3", "step back three", "step-back three",
+                        "tell me about shai's step back 3", "tell me about shai's step-back three",
+                        "how does shai do the step back 3", "what is shai's step back 3"]:
+        print(
+            f"{bot_name}: Shai's step-back three uses the same threat of the drive that makes his midrange game effective. He attacks forward, gets the defender moving toward the basket, plants his foot, and quickly creates space behind the three-point line. He then gathers his feet and shoots with a controlled release, using the separation to prevent the defender from getting a clean contest.")
+    elif user_input in ["haircut", "hair", "shai's haircut", "shais haircut", "new haircut", "shai's new haircut",
+                        "shais new haircut", "buzz cut", "buzzcut", "shai's buzz cut", "shais buzz cut",
+                        "what is shai's haircut", "what is shais haircut", "what haircut does shai have",
+                        "tell me about shai's haircut", "tell me about shais haircut", "why did shai cut his hair",
+                        "what happened to shai's braids", "what happened to shais braids", "braids", "shai's braids",
+                        "shais braids"]:
+        print(
+            f"{bot_name}: Shai currently has a short buzz cut, a major change from the cornrows and braids that were part of his signature look for years. He publicly debuted the haircut while playing for Canada during the 2027 FIBA World Cup qualifiers in July 2026. Shai explained that he had worn braids for a long time and wanted to try something different, although the sudden change surprised fans who strongly connected his braids with his style and aura.")
+    elif user_input in ["teammates", "teamates", "team mates", "roster", "thunder roster", "okc roster",
+                        "shai's teammates", "shais teammates", "shai's teamates", "shais teamates",
+                        "who are shai's teammates", "who are shais teammates", "who does shai play with",
+                        "who is on shai's team", "who is on the thunder", "shai teammates"]:
+        print(
+            f"{bot_name}: Shai's current Thunder teammates are Alex Caruso, Aday Mara, Ajay Mitchell, Bennett Stirtz, Brooks Barnhizer, Cason Wallace, Chet Holmgren, Isaiah Hartenstein, Jalen Williams, Jared McCain, Jaylin Williams, Josh Dix, Kenrich Williams, Nikola Topic, Otega Oweh, and Thomas Sorber. The roster changed during the 2026 offseason when Lu Dort was traded to the Atlanta Hawks in a three-team deal for three future second-round picks, Aaron Wiggins was traded to Atlanta for two future second-round picks, and Isaiah Joe was traded to the Detroit Pistons for two future second-round picks. They were important members of Oklahoma City's depth, but their departures create larger opportunities for the team's remaining young guards and wings.")
+
+    elif user_input in ["chet", "chet holmgren", "who is chet", "who is chet holmgren", "tell me about chet",
+                        "tell me about chet holmgren", "what does chet do", "how good is chet", "shai and chet",
+                        "shai's teammate chet", "shais teammate chet"]:
+        print(
+            f"{bot_name}: Chet Holmgren is a tall and highly skilled center-forward who was selected second overall in the 2022 NBA Draft after playing at Gonzaga. He can protect the rim, block shots, handle the ball, finish around the basket, and stretch the defense with his three-point shooting. His ability to set screens and either roll toward the basket or move outside for a jumper makes him a dangerous partner for Shai. On defense, Chet's length helps cover the paint when Shai and the other guards pressure opposing ball handlers.")
+
+    elif user_input in ["jalen", "jalen williams", "jdub", "j-dub", "j dub", "who is jalen", "who is jalen williams",
+                        "who is jdub", "tell me about jalen", "tell me about jalen williams", "tell me about jdub",
+                        "what does jdub do", "how good is jdub", "shai and jdub", "shai and jalen"]:
+        print(
+            f"{bot_name}: Jalen Williams, better known as JDub, is a versatile guard-forward who was selected twelfth overall in the 2022 NBA Draft after playing at Santa Clara. He can attack the rim, score from the midrange, shoot from three, create opportunities for teammates, and defend several positions. JDub gives Oklahoma City another dependable creator when teams send extra defenders toward Shai. His strength, long wingspan, patience, and smooth footwork make him one of the most complete young two-way players in basketball.")
+
+    elif user_input in ["jared", "jared mccain", "jared mcain", "who is jared", "who is jared mccain",
+                        "who is jared mcain", "tell me about jared", "tell me about jared mccain",
+                        "tell me about jared mcain", "what does jared do", "how good is jared", "shai and jared",
+                        "shai's teammate jared", "shais teammate jared"]:
+        print(
+            f"{bot_name}: Jared McCain is a young guard who played at Duke and was selected sixteenth overall in the 2024 NBA Draft. Oklahoma City acquired him from the Philadelphia 76ers in February 2026. Jared is known for his quick shooting release, three-point range, confidence, movement without the ball, and ability to score off the dribble. Playing beside Shai gives Jared open shooting opportunities because defenders often collapse toward Shai's drives. Jared can also attack closeouts, provide secondary ball handling, and bring positive energy to the Thunder's guard rotation.")
+    elif user_input in ["hailey", "hailey summers", "who is hailey", "who is hailey summers", "tell me about hailey",
+                        "tell me about hailey summers", "shai's wife", "shais wife", "who is shai's wife",
+                        "who is shais wife", "shai and hailey", "is shai married"]:
+        print(
+            f"{bot_name}: Hailey Summers is Shai Gilgeous-Alexander's wife and high-school sweetheart. Like Shai, she is from Hamilton, Ontario. Hailey played Division I soccer as a defender at the University at Albany from 2017 to 2021, appeared in 73 games, served as a team captain, and wore number 2. Shai and Hailey married in 2024 and have a son named Ares. Shai has publicly credited Hailey for supporting him, keeping him grounded, and helping him grow as a person and basketball player.")
+    elif user_input in ["cars", "car", "sga cars", "shai cars", "shai's cars", "shais cars", "car collection",
+                        "shai's car collection", "shais car collection", "what cars does shai have",
+                        "what cars does sga have", "tell me about shai's cars", "tell me about shais cars"]:
+        print(
+            f"{bot_name}: Shai has been publicly photographed with or linked to several luxury vehicles, including a Mercedes-AMG G 63, a Mercedes-Maybach S 680 designed with Virgil Abloh, a black Tesla Cybertruck, a McLaren, a Lamborghini Urus and other Mercedes-AMG models. He has also reportedly been associated with a 2025 Mercedes-AMG GT 63 two-door Coupe and the electric Mercedes-Benz G 580 with EQ Technology, although those exact ownership details have less reliable public confirmation.")
+
+    elif user_input in ["amg gt63", "amg gt 63", "gt63", "gt 63", "2025 amg gt63", "2025 amg gt 63", "shai's amg gt63",
+                        "shais amg gt63", "shai's gt63", "shais gt63", "tell me about shai's amg gt63",
+                        "tell me about shais amg gt63"]:
+        print(
+            f"{bot_name}: Shai has reportedly been linked to a 2025 Mercedes-AMG GT 63 two-door Coupe. The GT 63 combines the shape of a luxury grand-touring coupe with AMG performance, making it a natural match for Shai's preference for vehicles that are stylish, powerful and uncommon. Public images show him with several Mercedes-AMG vehicles, but strong confirmation that this exact GT 63 is personally owned by him is limited.")
+
+    elif user_input in ["g580", "g 580", "electric g580", "electric g 580", "electric g wagon", "electric g-wagon",
+                        "shai's g580", "shais g580", "shai's electric g wagon", "shais electric g wagon",
+                        "tell me about shai's g580", "tell me about shais g580"]:
+        print(
+            f"{bot_name}: Shai has reportedly been associated with the Mercedes-Benz G 580 with EQ Technology, the fully electric version of the G-Class. It keeps the recognizable box-shaped G-Wagon appearance while using an electric powertrain. It should not be confused with Shai's Mercedes-AMG G 63, which he has officially discussed and described as one of his preferred vehicles.")
+
+    elif user_input in ["g63", "g 63", "amg g63", "amg g 63", "g wagon", "g-wagon", "shai's g63", "shais g63",
+                        "shai's g wagon", "shais g wagon", "tell me about shai's g63", "tell me about shais g63"]:
+        print(
+            f"{bot_name}: Shai's Mercedes-AMG G 63 is one of the most publicly confirmed vehicles connected to him. He featured it in Mercedes-AMG's AMG Uncovered series and described it as unique, swaggy and fun to drive. He has said that he tries to drive it to practices and games because he sees the vehicle as an extension of his personality.")
+
+    elif user_input in ["virgil abloh maybach", "virgil maybach", "maybach", "s680", "s 680", "maybach s680",
+                        "maybach s 680", "virgil abloh s680", "virgil abloh s 680", "shai's maybach", "shais maybach",
+                        "tell me about shai's maybach", "tell me about shais maybach"]:
+        print(
+            f"{bot_name}: Shai has been publicly seen with the Mercedes-Maybach S 680 by Virgil Abloh. The special model combines Maybach luxury with Virgil Abloh's distinctive design direction, including a two-tone sand and black appearance. The car fits Shai's interest in rare fashion, luxury and designs that have a strong creative identity.")
+
+    elif user_input in ["cybertruck", "cyber truck", "tesla cybertruck", "tesla cyber truck", "black cybertruck",
+                        "blacked out cybertruck", "shai's cybertruck", "shais cybertruck",
+                        "tell me about shai's cybertruck", "tell me about shais cybertruck"]:
+        print(
+            f"{bot_name}: Shai has been publicly photographed with a black Tesla Cybertruck. The dark customized appearance matches his preference for bold vehicles and coordinated all-black outfits. Its sharp futuristic shape makes it one of the most recognizable vehicles associated with his public car collection.")
+    elif user_input in ["physical attributes", "physical attribute", "attributes", "measurements",
+                        "shai's measurements", "shais measurements", "shai's physical attributes",
+                        "shais physical attributes", "sga physical attributes", "what are shai's physical attributes",
+                        "what are shais physical attributes", "tell me about shai's physical attributes",
+                        "tell me about shais physical attributes", "how big is shai"]:
+        print(
+            f"{bot_name}: Shai is officially listed at 6 feet 6 inches tall and 195 pounds. He is a right-handed guard with a long and lean athletic build. At the 2018 NBA Draft Combine, he measured a 6 foot 11.5 inch wingspan and an 8 foot 8 inch standing reach. His unusual length for a guard helps him finish around defenders, release shots over contests, disrupt passing lanes and defend several positions.")
+
+    elif user_input in ["height", "shai height", "shai's height", "shais height", "sga height", "how tall is shai",
+                        "how tall is sga", "what is shai's height", "what is shais height"]:
+        print(
+            f"{bot_name}: Shai is officially listed at 6 feet 6 inches tall, which is excellent size for a point guard or shooting guard.")
+
+    elif user_input in ["weight", "shai weight", "shai's weight", "shais weight", "sga weight",
+                        "how much does shai weigh", "how much does sga weigh", "what is shai's weight",
+                        "what is shais weight"]:
+        print(
+            f"{bot_name}: Shai is officially listed at 195 pounds. His lean frame helps him stay fluid and change direction, while his strength and balance allow him to absorb contact during drives.")
+
+    elif user_input in ["wingspan", "shai wingspan", "shai's wingspan", "shais wingspan", "sga wingspan",
+                        "what is shai's wingspan", "what is shais wingspan", "how long is shai's wingspan",
+                        "how long is shais wingspan"]:
+        print(
+            f"{bot_name}: Shai measured a 6 foot 11.5 inch wingspan at the 2018 NBA Draft Combine. That is nearly seven feet and gives him exceptional length for a guard, helping him finish, contest shots, collect steals and shoot over smaller defenders.")
+
+    elif user_input in ["standing reach", "shai standing reach", "shai's standing reach", "shais standing reach",
+                        "sga standing reach", "what is shai's standing reach", "what is shais standing reach"]:
+        print(
+            f"{bot_name}: Shai recorded an 8 foot 8 inch standing reach at the 2018 NBA Draft Combine. Standing reach measures how high a player can touch without jumping and helps show why his length is so useful near the basket.")
+
+    elif user_input in ["right handed", "right-handed", "is shai right handed", "is shai right-handed",
+                        "what hand is shai", "what hand does shai use", "what hand does shai shoot with",
+                        "shai's dominant hand", "shais dominant hand", "dominant hand", "handedness"]:
+        print(
+            f"{bot_name}: Shai is right-handed and shoots his jump shot with his right hand. However, he is highly comfortable dribbling and finishing with his left hand, which makes his drives difficult to predict.")
+
+    elif user_input in ["position", "shai position", "shai's position", "shais position", "sga position",
+                        "what position is shai", "what position does shai play", "what is shai's position",
+                        "what is shais position"]:
+        print(
+            f"{bot_name}: Shai plays both point guard and shooting guard. He usually functions as Oklahoma City's primary ball handler, scorer and offensive creator.")
+    elif user_input in ["stats", "shai stats", "sga stats", "shai's stats", "shais stats", "what are shai's stats",
+                        "what are shais stats", "what are sga's stats", "what are his stats", "current stats",
+                        "season stats"]:
+        print(
+            f"{bot_name}: During the 2025-26 regular season, Shai played 68 games and averaged 31.1 points, 4.3 rebounds, 6.6 assists, 1.4 steals and 0.8 blocks while shooting 55.3 percent from the field. During the 2026 playoffs, he played 15 games and averaged 27.6 points, 2.9 rebounds, 7.9 assists, 1.3 steals and 0.9 blocks while shooting 46.3 percent from the field.")
+
+    elif user_input in ["rookie stats", "rookie year stats", "shai rookie stats", "shai's rookie stats",
+                        "shais rookie stats", "2018-19 stats", "2018-2019 stats", "2018 2019 stats",
+                        "shai 2018-2019 stats", "what were shai's rookie stats", "what were shais rookie stats"]:
+        print(
+            f"{bot_name}: During his 2018-19 rookie season with the Los Angeles Clippers, Shai played all 82 regular-season games and averaged 10.8 points, 2.8 rebounds, 3.3 assists, 1.2 steals and 0.5 blocks while shooting 47.6 percent from the field. In six playoff games against Golden State, he averaged 13.7 points, 2.7 rebounds and 3.2 assists while shooting 46.7 percent.")
+
+    elif user_input in ["2019-20 stats", "2019-2020 stats", "2019 2020 stats", "shai 2019-2020 stats",
+                        "shai's 2019-20 stats", "shais 2019-20 stats", "what were shai's stats in 2019-20",
+                        "what were shais stats in 2019-20"]:
+        print(
+            f"{bot_name}: During the 2019-20 regular season, Shai played 70 games for Oklahoma City and averaged 19.0 points, 5.9 rebounds, 3.3 assists, 1.1 steals and 0.7 blocks while shooting 47.1 percent from the field. In seven playoff games, he averaged 16.3 points, 5.3 rebounds and 4.1 assists while shooting 43.3 percent.")
+
+    elif user_input in ["2020-21 stats", "2020-2021 stats", "2020 2021 stats", "shai 2020-2021 stats",
+                        "shai's 2020-21 stats", "shais 2020-21 stats", "what were shai's stats in 2020-21",
+                        "what were shais stats in 2020-21"]:
+        print(
+            f"{bot_name}: During the 2020-21 regular season, Shai played 35 games and averaged 23.7 points, 4.7 rebounds, 5.9 assists, 0.8 steals and 0.7 blocks while shooting 50.8 percent from the field and 41.8 percent from three. Oklahoma City did not qualify for the playoffs that season.")
+
+    elif user_input in ["2021-22 stats", "2021-2022 stats", "2021 2022 stats", "shai 2021-2022 stats",
+                        "shai's 2021-22 stats", "shais 2021-22 stats", "what were shai's stats in 2021-22",
+                        "what were shais stats in 2021-22"]:
+        print(
+            f"{bot_name}: During the 2021-22 regular season, Shai played 56 games and averaged 24.5 points, 5.0 rebounds, 5.9 assists, 1.3 steals and 0.8 blocks while shooting 45.3 percent from the field. Oklahoma City did not qualify for the playoffs that season.")
+
+    elif user_input in ["2022-23 stats", "2022-2023 stats", "2022 2023 stats", "shai 2022-2023 stats",
+                        "shai's 2022-23 stats", "shais 2022-23 stats", "what were shai's stats in 2022-23",
+                        "what were shais stats in 2022-23"]:
+        print(
+            f"{bot_name}: During the 2022-23 regular season, Shai played 68 games and averaged 31.4 points, 4.8 rebounds, 5.5 assists, 1.6 steals and 1.0 block while shooting 51.0 percent from the field and 90.5 percent from the free-throw line. Oklahoma City reached the Play-In Tournament but did not qualify for the official NBA playoffs.")
+
+    elif user_input in ["2023-24 stats", "2023-2024 stats", "2023 2024 stats", "shai 2023-2024 stats",
+                        "shai's 2023-24 stats", "shais 2023-24 stats", "what were shai's stats in 2023-24",
+                        "what were shais stats in 2023-24"]:
+        print(
+            f"{bot_name}: During the 2023-24 regular season, Shai played 75 games and averaged 30.1 points, 5.5 rebounds, 6.2 assists, 2.0 steals and 0.9 blocks while shooting 53.5 percent from the field. In ten playoff games, he averaged 30.2 points, 7.2 rebounds, 6.4 assists, 1.3 steals and 1.7 blocks while shooting 49.6 percent.")
+
+    elif user_input in ["2024-25 stats", "2024-2025 stats", "2024 2025 stats", "shai 2024-2025 stats",
+                        "shai's 2024-25 stats", "shais 2024-25 stats", "what were shai's stats in 2024-25",
+                        "what were shais stats in 2024-25", "championship season stats"]:
+        print(
+            f"{bot_name}: During the 2024-25 regular season, Shai played 76 games and averaged a league-leading 32.7 points, 5.0 rebounds, 6.4 assists, 1.7 steals and 1.0 block while shooting 51.9 percent from the field. In 23 playoff games, he averaged 29.9 points, 5.3 rebounds, 6.5 assists, 1.7 steals and 0.9 blocks while shooting 46.2 percent, leading Oklahoma City to the NBA championship.")
+
+    elif user_input in ["2025-26 stats", "2025-2026 stats", "2025 2026 stats", "shai 2025-2026 stats",
+                        "shai's 2025-26 stats", "shais 2025-26 stats", "what were shai's stats in 2025-26",
+                        "what were shais stats in 2025-26"]:
+        print(
+            f"{bot_name}: During the 2025-26 regular season, Shai played 68 games and averaged 31.1 points, 4.3 rebounds, 6.6 assists, 1.4 steals and 0.8 blocks while shooting 55.3 percent from the field, 38.6 percent from three and 87.9 percent from the free-throw line. In 15 playoff games, he averaged 27.6 points, 2.9 rebounds, 7.9 assists, 1.3 steals and 0.9 blocks while shooting 46.3 percent.")
+    elif user_input in ["accolades", "awards", "shai accolades", "shai awards", "shai's accolades", "shais accolades",
+                        "sga accolades", "what accolades does shai have", "what awards does shai have",
+                        "what has shai won"]:
+        print(
+            f"{bot_name}: Shai's major NBA accomplishments include two NBA MVP awards, one NBA championship, one Finals MVP, one Western Conference Finals MVP, one scoring title, four All-NBA First Team selections, four All-Star selections, one Clutch Player of the Year award, one All-Rookie Second Team selection and NBA Cup All-Tournament Team selections in 2024 and 2025.")
+
+    elif user_input in ["2018-19 accolades", "2018-2019 accolades", "2018 2019 accolades", "rookie year accolades",
+                        "rookie accolades", "what accolades did shai get in the 2018-19 season",
+                        "what awards did shai get in the 2018-19 season", "what did shai win in his rookie year"]:
+        print(
+            f"{bot_name}: During the 2018-19 season, Shai was selected to the NBA All-Rookie Second Team. That was his main major NBA accolade during his rookie season.")
+
+    elif user_input in ["2019-20 accolades", "2019-2020 accolades", "2019 2020 accolades",
+                        "what accolades did shai get in the 2019-20 season",
+                        "what awards did shai get in the 2019-20 season", "what did shai win in 2019-20"]:
+        print(
+            f"{bot_name}: Shai did not receive a major NBA award, All-Star selection or All-NBA selection during the 2019-20 season.")
+
+    elif user_input in ["2020-21 accolades", "2020-2021 accolades", "2020 2021 accolades",
+                        "what accolades did shai get in the 2020-21 season",
+                        "what awards did shai get in the 2020-21 season", "what did shai win in 2020-21"]:
+        print(
+            f"{bot_name}: Shai did not receive a major NBA award, All-Star selection or All-NBA selection during the 2020-21 season.")
+
+    elif user_input in ["2021-22 accolades", "2021-2022 accolades", "2021 2022 accolades",
+                        "what accolades did shai get in the 2021-22 season",
+                        "what awards did shai get in the 2021-22 season", "what did shai win in 2021-22"]:
+        print(
+            f"{bot_name}: Shai did not receive a major NBA award, All-Star selection or All-NBA selection during the 2021-22 season.")
+
+    elif user_input in ["2022-23 accolades", "2022-2023 accolades", "2022 2023 accolades",
+                        "what accolades did shai get in the 2022-23 season",
+                        "what awards did shai get in the 2022-23 season", "what did shai win in 2022-23"]:
+        print(
+            f"{bot_name}: During the 2022-23 season, Shai earned his first NBA All-Star selection and was named to the All-NBA First Team for the first time. Those honors marked his arrival as one of the league's elite players.")
+
+    elif user_input in ["2023-24 accolades", "2023-2024 accolades", "2023 2024 accolades",
+                        "what accolades did shai get in the 2023-24 season",
+                        "what awards did shai get in the 2023-24 season", "what did shai win in 2023-24"]:
+        print(
+            f"{bot_name}: During the 2023-24 season, Shai was selected as an NBA All-Star starter, earned his second consecutive All-NBA First Team selection and finished second in NBA MVP voting behind Nikola Jokic.")
+
+    elif user_input in ["2024-25 accolades", "2024-2025 accolades", "2024 2025 accolades",
+                        "what accolades did shai get in the 2024-25 season",
+                        "what awards did shai get in the 2024-25 season", "what did shai win in 2024-25",
+                        "championship season accolades"]:
+        print(
+            f"{bot_name}: Shai's 2024-25 season was historic. He was an NBA All-Star starter, made the All-NBA First Team, made the NBA Cup All-Tournament Team, won the NBA scoring title, won his first NBA MVP, won the Western Conference Finals MVP, led Oklahoma City to the NBA championship and won the NBA Finals MVP.")
+
+    elif user_input in ["2025-26 accolades", "2025-2026 accolades", "2025 2026 accolades",
+                        "what accolades did shai get in the 2025-26 season",
+                        "what awards did shai get in the 2025-26 season", "what did shai win in 2025-26"]:
+        print(
+            f"{bot_name}: During the 2025-26 season, Shai was selected as an NBA All-Star starter but did not play because of injury. He made the NBA Cup All-Tournament Team, won the NBA Clutch Player of the Year award, won his second consecutive NBA MVP and was unanimously selected to the All-NBA First Team.")
+    elif user_input in ["accolades", "awards", "shai accolades", "shai awards", "shai's accolades", "shais accolades",
+                        "sga accolades", "what accolades does shai have", "what awards does shai have",
+                        "what has shai won"]:
+        print(
+            f"{bot_name}: Shai's major NBA accomplishments include two NBA MVP awards, one NBA championship, one Finals MVP, one Western Conference Finals MVP, one scoring title, four All-NBA First Team selections, four All-Star selections, one Clutch Player of the Year award, one All-Rookie Second Team selection and NBA Cup All-Tournament Team selections in 2024 and 2025.")
+
+    elif user_input in ["2018-19 accolades", "2018-2019 accolades", "2018 2019 accolades", "rookie year accolades",
+                        "rookie accolades", "what accolades did shai get in the 2018-19 season",
+                        "what awards did shai get in the 2018-19 season", "what did shai win in his rookie year"]:
+        print(
+            f"{bot_name}: During the 2018-19 season, Shai was selected to the NBA All-Rookie Second Team. That was his main major NBA accolade during his rookie season.")
+
+    elif user_input in ["2019-20 accolades", "2019-2020 accolades", "2019 2020 accolades",
+                        "what accolades did shai get in the 2019-20 season",
+                        "what awards did shai get in the 2019-20 season", "what did shai win in 2019-20"]:
+        print(
+            f"{bot_name}: Shai did not receive a major NBA award, All-Star selection or All-NBA selection during the 2019-20 season.")
+
+    elif user_input in ["2020-21 accolades", "2020-2021 accolades", "2020 2021 accolades",
+                        "what accolades did shai get in the 2020-21 season",
+                        "what awards did shai get in the 2020-21 season", "what did shai win in 2020-21"]:
+        print(
+            f"{bot_name}: Shai did not receive a major NBA award, All-Star selection or All-NBA selection during the 2020-21 season.")
+
+    elif user_input in ["2021-22 accolades", "2021-2022 accolades", "2021 2022 accolades",
+                        "what accolades did shai get in the 2021-22 season",
+                        "what awards did shai get in the 2021-22 season", "what did shai win in 2021-22"]:
+        print(
+            f"{bot_name}: Shai did not receive a major NBA award, All-Star selection or All-NBA selection during the 2021-22 season.")
+
+    elif user_input in ["2022-23 accolades", "2022-2023 accolades", "2022 2023 accolades",
+                        "what accolades did shai get in the 2022-23 season",
+                        "what awards did shai get in the 2022-23 season", "what did shai win in 2022-23"]:
+        print(
+            f"{bot_name}: During the 2022-23 season, Shai earned his first NBA All-Star selection and was named to the All-NBA First Team for the first time. Those honors marked his arrival as one of the league's elite players.")
+
+    elif user_input in ["2023-24 accolades", "2023-2024 accolades", "2023 2024 accolades",
+                        "what accolades did shai get in the 2023-24 season",
+                        "what awards did shai get in the 2023-24 season", "what did shai win in 2023-24"]:
+        print(
+            f"{bot_name}: During the 2023-24 season, Shai was selected as an NBA All-Star starter, earned his second consecutive All-NBA First Team selection and finished second in NBA MVP voting behind Nikola Jokic.")
+
+    elif user_input in ["2024-25 accolades", "2024-2025 accolades", "2024 2025 accolades",
+                        "what accolades did shai get in the 2024-25 season",
+                        "what awards did shai get in the 2024-25 season", "what did shai win in 2024-25",
+                        "championship season accolades"]:
+        print(
+            f"{bot_name}: Shai's 2024-25 season was historic. He was an NBA All-Star starter, made the All-NBA First Team, made the NBA Cup All-Tournament Team, won the NBA scoring title, won his first NBA MVP, won the Western Conference Finals MVP, led Oklahoma City to the NBA championship and won the NBA Finals MVP.")
+
+    elif user_input in ["2025-26 accolades", "2025-2026 accolades", "2025 2026 accolades",
+                        "what accolades did shai get in the 2025-26 season",
+                        "what awards did shai get in the 2025-26 season", "what did shai win in 2025-26"]:
+        print(
+            f"{bot_name}: During the 2025-26 season, Shai was selected as an NBA All-Star starter but did not play because of injury. He made the NBA Cup All-Tournament Team, won the NBA Clutch Player of the Year award, won his second consecutive NBA MVP and was unanimously selected to the All-NBA First Team.")
+    elif user_input in ["top 5 thunder players", "top five thunder players", "top 5 thunder players of all time",
+                        "top five thunder players of all time", "five greatest thunder players",
+                        "who are the top 5 thunder players", "who are the top five thunder players", "thunder top 5",
+                        "okc top 5", "top 5 okc players", "top five okc players"]:
+        print(
+            f"{bot_name}: My top five Oklahoma City Thunder players of all time are: 1. Shai Gilgeous-Alexander, 2. Russell Westbrook, 3. Kevin Durant, 4. Serge Ibaka and 5. James Harden. Shai is number one because he combined back-to-back MVP awards with an NBA championship and Finals MVP. Westbrook earned the 2017 MVP and built the strongest longevity résumé in Oklahoma City. Durant won the 2014 MVP, earned four scoring titles and led the Thunder to the 2012 NBA Finals. Ibaka spent more time in Oklahoma City than Harden, became the franchise's all-time blocks leader and anchored several elite defenses. Harden won the 2012 Sixth Man of the Year award and played a major role in the Thunder reaching the NBA Finals before becoming a superstar after leaving Oklahoma City.")
+
+    elif user_input in ["top 10 thunder players", "top ten thunder players", "top 10 thunder players of all time",
+                        "top ten thunder players of all time", "ten greatest thunder players",
+                        "who are the top 10 thunder players", "who are the top ten thunder players", "thunder top 10",
+                        "okc top 10", "top 10 okc players", "top ten okc players"]:
+        print(
+            f"{bot_name}: My top ten Oklahoma City Thunder players of all time are: 1. Shai Gilgeous-Alexander, 2. Russell Westbrook, 3. Kevin Durant, 4. Serge Ibaka, 5. James Harden, 6. Jalen Williams, 7. Chet Holmgren, 8. Steven Adams, 9. Lu Dort and 10. Paul George. Shai has the strongest combination of individual greatness and championship success. Westbrook and Durant built the Thunder's first contending era, while Ibaka served as its defensive anchor. Harden won Sixth Man of the Year and helped the team reach the 2012 NBA Finals. JDub and Chet became central members of Shai's championship core. Adams provided years of rebounding, physicality and screening, Dort became an elite perimeter defender, and Paul George produced an MVP-caliber season in Oklahoma City. Nick Collison is an honorable mention for his longevity, leadership and importance to Thunder culture.")
+    elif user_input in ["career highs", "career high", "shai career highs", "shai's career highs", "shais career highs",
+                        "sga career highs", "what are shai's career highs", "what are shais career highs",
+                        "what are sga's career highs", "highest stats"]:
+        print(
+            f"{bot_name}: Shai's regular-season career highs are 55 points, 20 rebounds, 15 assists, 7 steals, 4 blocks and 6 made three-pointers in a single game. Those numbers show that he can dominate as a scorer, playmaker, rebounder and defender.")
+
+    elif user_input in ["career high points", "points career high", "shai career high points",
+                        "shai's career high points", "shais career high points", "sga career high points",
+                        "what is shai's career high", "what is shais career high", "what is sga's career high",
+                        "most points shai scored", "most points sga scored", "how many points is shai's career high"]:
+        print(
+            f"{bot_name}: Shai's career high is 55 points. He scored 55 against the Indiana Pacers on October 23, 2025, during a double-overtime victory. He added 8 rebounds and 5 assists while making 23 free throws.")
+
+    elif user_input in ["career high rebounds", "rebound career high", "shai career high rebounds",
+                        "shai's career high rebounds", "shais career high rebounds", "sga career high rebounds",
+                        "what is shai's rebound career high", "what is shais rebound career high",
+                        "most rebounds shai had", "most rebounds sga had"]:
+        print(
+            f"{bot_name}: Shai's career high is 20 rebounds. He collected 20 rebounds against the Minnesota Timberwolves on January 13, 2020, while also recording 20 points and 10 assists for a triple-double.")
+
+    elif user_input in ["career high assists", "assist career high", "shai career high assists",
+                        "shai's career high assists", "shais career high assists", "sga career high assists",
+                        "what is shai's assist career high", "what is shais assist career high",
+                        "most assists shai had", "most assists sga had"]:
+        print(
+            f"{bot_name}: Shai's career high is 15 assists. He recorded 15 assists against the Denver Nuggets on March 9, 2026, while adding 35 points and 9 rebounds without committing a turnover.")
+
+    elif user_input in ["career high steals", "steal career high", "shai career high steals",
+                        "shai's career high steals", "shais career high steals", "sga career high steals",
+                        "what is shai's steal career high", "what is shais steal career high", "most steals shai had",
+                        "most steals sga had"]:
+        print(
+            f"{bot_name}: Shai's career high is 7 steals. He recorded 7 steals against the San Antonio Spurs on November 14, 2023, while scoring 28 points in only 28 minutes.")
+
+    elif user_input in ["career high blocks", "block career high", "shai career high blocks",
+                        "shai's career high blocks", "shais career high blocks", "sga career high blocks",
+                        "what is shai's block career high", "what is shais block career high", "most blocks shai had",
+                        "most blocks sga had"]:
+        print(
+            f"{bot_name}: Shai's career high is 4 blocks in one game. He has reached that number five different times, showing how useful his length and timing are defensively.")
+
+    elif user_input in ["career high threes", "career high three pointers", "three pointer career high",
+                        "shai career high threes", "shai's career high threes", "shais career high threes",
+                        "sga career high threes", "most threes shai made", "most three pointers shai made"]:
+        print(
+            f"{bot_name}: Shai's career high is 6 made three-pointers. He made 6 threes against the San Antonio Spurs on February 24, 2021, while scoring 42 points.")
+    elif user_input in ["double doubles", "double-doubles", "double double", "shai double doubles",
+                        "shai's double doubles", "shais double doubles", "sga double doubles",
+                        "how many double doubles does shai have", "how many double-doubles does shai have",
+                        "how many double doubles does sga have"]:
+        print(
+            f"{bot_name}: Shai has recorded 44 regular-season double-doubles in his NBA career through the end of the 2025-26 season. That total includes games in which he also recorded a triple-double.")
+
+    elif user_input in ["triple doubles", "triple-doubles", "triple double", "shai triple doubles",
+                        "shai's triple doubles", "shais triple doubles", "sga triple doubles",
+                        "how many triple doubles does shai have", "how many triple-doubles does shai have",
+                        "how many triple doubles does sga have"]:
+        print(
+            f"{bot_name}: Shai has recorded 2 regular-season triple-doubles in his NBA career through the end of the 2025-26 season. His first included a career-high 20 rebounds against Minnesota in 2020, and his second came against Denver in 2021.")
+    elif user_input in ["career averages", "career average", "shai career averages", "shai's career averages",
+                        "shais career averages", "sga career averages", "what are shai's career averages",
+                        "what are shais career averages", "what does shai average for his career", "career stats",
+                        "shai career stats", "sga career stats"]:
+        print(
+            f"{bot_name}: Through the end of the 2025-26 regular season, Shai has played 530 games and averages 25.3 points, 4.7 rebounds, 5.3 assists, 1.4 steals, 0.8 blocks and 2.3 turnovers in 33.1 minutes per game. He shoots 50.8 percent from the field, 36.0 percent from three and 86.4 percent from the free-throw line, with a 61.6 percent true-shooting percentage.")
+
+    elif user_input in ["career points average", "career scoring average", "shai career points average",
+                        "shai's career points average", "shais career points average", "sga career points average",
+                        "how many points does shai average for his career"]:
+        print(f"{bot_name}: Shai averages 25.3 points per game across his first 530 regular-season games.")
+
+    elif user_input in ["career rebounds average", "career rebound average", "shai career rebound average",
+                        "shai's career rebound average", "shais career rebound average",
+                        "how many rebounds does shai average for his career"]:
+        print(f"{bot_name}: Shai averages 4.7 rebounds per game for his regular-season career.")
+
+    elif user_input in ["career assists average", "career assist average", "shai career assist average",
+                        "shai's career assist average", "shais career assist average",
+                        "how many assists does shai average for his career"]:
+        print(f"{bot_name}: Shai averages 5.3 assists per game for his regular-season career.")
+
+    elif user_input in ["career steals average", "career steal average", "shai career steal average",
+                        "shai's career steal average", "shais career steal average",
+                        "how many steals does shai average for his career"]:
+        print(f"{bot_name}: Shai averages 1.4 steals per game for his regular-season career.")
+
+    elif user_input in ["career blocks average", "career block average", "shai career block average",
+                        "shai's career block average", "shais career block average",
+                        "how many blocks does shai average for his career"]:
+        print(f"{bot_name}: Shai averages 0.8 blocks per game for his regular-season career.")
+
+    elif user_input in ["career shooting percentages", "career shooting percentage", "shai career shooting",
+                        "shai's career shooting percentages", "shais career shooting percentages",
+                        "what are shai's career shooting percentages", "what are shais career shooting percentages"]:
+        print(
+            f"{bot_name}: Shai's career shooting percentages are 50.8 percent from the field, 36.0 percent from three and 86.4 percent from the free-throw line. His career true-shooting percentage is 61.6 percent.")
+    elif user_input in ["how many mvps does shai have", "how many mvp awards does shai have",
+                        "how many mvps does sga have", "shai mvps", "shai's mvps", "shais mvps", "sga mvps",
+                        "mvp count"]:
+        print(
+            f"{bot_name}: Shai has won 2 NBA Most Valuable Player awards. He won them in consecutive seasons, earning MVP in 2024-25 and again in 2025-26.")
+
+    elif user_input in ["how many first team all nbas does shai have", "how many first-team all-nbas does shai have",
+                        "how many all nba first teams does shai have", "how many all-nba first teams does shai have",
+                        "shai first team all nba", "shai's first team all nba selections",
+                        "shais first team all nba selections"]:
+        print(
+            f"{bot_name}: Shai has earned 4 consecutive All-NBA First Team selections, covering the 2022-23, 2023-24, 2024-25 and 2025-26 seasons. Every All-NBA selection of his career has been First Team.")
+
+    elif user_input in ["how many all nba selections does shai have", "how many all-nba selections does shai have",
+                        "shai all nba selections", "shai's all nba selections", "shais all nba selections",
+                        "sga all nba selections"]:
+        print(f"{bot_name}: Shai has 4 All-NBA selections, and all 4 have been First Team selections.")
+
+    elif user_input in ["how many scoring titles does shai have", "how many scoring championships does shai have",
+                        "shai scoring titles", "shai's scoring titles", "shais scoring titles", "sga scoring titles",
+                        "scoring title count"]:
+        print(
+            f"{bot_name}: Shai has won 1 NBA scoring title. He led the league with a career-high average of 32.7 points per game during the 2024-25 season.")
+
+    elif user_input in ["how many championships does shai have", "how many rings does shai have", "shai championships",
+                        "shai's championships", "shais championships", "shai rings", "shai's rings", "shais rings"]:
+        print(
+            f"{bot_name}: Shai has won 1 NBA championship. He led the Oklahoma City Thunder to the 2025 title and was named Finals MVP.")
+
+    elif user_input in ["how many finals mvps does shai have", "how many finals mvp awards does shai have",
+                        "shai finals mvps", "shai's finals mvps", "shais finals mvps", "sga finals mvps"]:
+        print(
+            f"{bot_name}: Shai has won 1 NBA Finals MVP award. He earned it after leading Oklahoma City to the 2025 NBA championship.")
+
+    elif user_input in ["how many western conference finals mvps does shai have",
+                        "how many conference finals mvps does shai have", "shai western conference finals mvp",
+                        "shai wcf mvp", "shai's wcf mvp", "shais wcf mvp"]:
+        print(
+            f"{bot_name}: Shai has won 1 Western Conference Finals MVP award. He earned it during Oklahoma City's 2025 championship run.")
+
+    elif user_input in ["how many all stars does shai have", "how many all-star selections does shai have",
+                        "shai all stars", "shai's all star selections", "shais all star selections", "sga all stars"]:
+        print(f"{bot_name}: Shai has been selected as an NBA All-Star 4 times.")
+
+    elif user_input in ["how many clutch player awards does shai have", "did shai win clutch player of the year",
+                        "shai clutch player of the year", "shai's clutch player award", "shais clutch player award"]:
+        print(
+            f"{bot_name}: Shai has won 1 NBA Clutch Player of the Year award. He earned it during the 2025-26 season before also winning his second consecutive MVP.")
+
+    elif user_input in ["how many nba cup all tournament teams does shai have",
+                        "how many nba cup selections does shai have", "shai nba cup all tournament teams",
+                        "shai's nba cup selections", "shais nba cup selections"]:
+        print(
+            f"{bot_name}: Shai has been selected to 2 NBA Cup All-Tournament Teams, earning the honor in both 2024 and 2025.")
+
+    elif user_input in ["how many all rookie teams did shai make", "did shai make an all rookie team",
+                        "shai all rookie team", "shai's all rookie selection", "shais all rookie selection"]:
+        print(
+            f"{bot_name}: Shai made 1 NBA All-Rookie Team. He was selected to the All-Rookie Second Team following his 2018-19 rookie season.")
+
+    else:
+        print(
+            f"{bot_name}: I’m not sure how to answer that yet. Try asking about Shai’s career, stats, teammates, signature moves, shoes, style, or achievements.")
+
+
